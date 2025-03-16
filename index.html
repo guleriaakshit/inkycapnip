@@ -106,10 +106,13 @@
 
   <section id="favorite-video">
     <h2>My Favorite Video</h2>
-    <video id="autoPlayVideo" loop width="300">
-      <source src="videos/favorite-video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <div class="video-container">
+      <video id="myVideo" width="300" poster="img/thumbnail.png">
+        <source src="videos/favorite-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button id="playButton"><i class="fa-solid fa-play"></i></button>
+    </div>
   </section>
 
   <h2>My First Poetry Book</h2>
