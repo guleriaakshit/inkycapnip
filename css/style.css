@@ -133,7 +133,7 @@ a:hover {
 /* Large styled text inside name */
 .name span {
   font-family: "Chonburi", serif;
-  font-size: 4rem;
+  font-size: 2rem;
   color: var(--white);
   display: block;
 }
@@ -221,6 +221,14 @@ footer li [class*="fa-"] {
 
 /* Media Queries for larger screens (Desktop) */
 @media (min-width: 850px) {
+  /* Large styled text inside name */
+  .name span {
+    font-family: "Chonburi", serif;
+    font-size: 4rem;
+    color: var(--white);
+    display: block;
+  }
+
   /* Center Favorite Poem section */
   #favorite-poem {
     max-width: 1200px;
