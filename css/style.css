@@ -133,7 +133,7 @@ a:hover {
 
 /* Special styling for intro headline */
 #intro .headline {
-  font-family: "Domine", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3rem;
 }
 
