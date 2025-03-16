@@ -3,6 +3,7 @@
   --black: #000000;
   --white: #ffffff;
   --red: #ff3131;
+  --grey: #1e1e1e;
   --font-size: 1.3rem;
 }
 
@@ -83,7 +84,7 @@ nav a {
 /* Button hover effect */
 .button:hover {
   color: var(--white);
-  background-color: var(--black);
+  background-color: var(--grey);
 }
 
 /* Reset margins for heading elements */
@@ -108,7 +109,7 @@ a {
 
 /* Link hover effect */
 a:hover {
-  color: var(--red);
+  color: var(--white);
   text-decoration: none;
 }
 
