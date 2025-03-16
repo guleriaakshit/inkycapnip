@@ -174,7 +174,6 @@ a:hover {
 /* Favorite Poem section headings */
 #favorite-poem h2 {
   font-size: 2.5rem;
-  margin-bottom: calc(2.5rem * 1.5);
 }
 
 /* Favorite poem styles */
@@ -187,8 +186,7 @@ video {
 #contact {
   text-align: center;
   margin: 0 auto;
-  padding: 4rem 0;
-  width: 1200px;
+  width: 600px;
 }
 
 /* Add spacing for paragraphs inside contact section */
