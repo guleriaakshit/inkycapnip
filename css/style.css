@@ -96,10 +96,14 @@ h4 {
   text-align: center;
 }
 
-/* h1 styles */
+/* headings styles */
 
 h1 {
   font-size: 2rem;
+  font-family: "Chonburi", serif;
+}
+
+h2 {
   font-family: "Chonburi", serif;
 }
 
@@ -144,7 +148,6 @@ a:hover {
 /* Headings inside intro section */
 #intro h2 {
   font-size: 4rem;
-  font-weight: lighter;
 }
 
 /* Separator line */
