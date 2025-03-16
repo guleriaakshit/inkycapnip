@@ -172,6 +172,11 @@ a:hover {
   padding: 1rem 1rem;
 }
 
+/* Favorite Poem paragraphs styles */
+#favorite-poem p {
+  text-align: center;
+}
+
 /* Favorite Poem section headings */
 #favorite-poem h2 {
   font-size: 2.5rem;
