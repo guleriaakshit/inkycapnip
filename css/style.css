@@ -24,6 +24,7 @@ body {
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
+  text-align: center;
 }
 
 /* Navbar styling */
@@ -180,6 +181,14 @@ a:hover {
 video {
   display: block;
   margin: 20px auto; /* Centers the video horizontally */
+}
+
+/* Image styles */
+img {
+  display: block;
+  margin: 20px auto; /* Centers the image horizontally */
+  max-width: 100%; /* Ensures it resizes properly */
+  height: auto;
 }
 
 /* Contact section styling */
